@@ -1,0 +1,46 @@
+.button-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    background-color: var(--bg-color-tertiary);
+    transition: background-color 200ms linear;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-card:active {
+    background-color: var(--bg-color-icon);
+}
+
+.main-text {
+    font-size: 60px;
+}
+
+.sub-text {
+    font-size: 20px;
+    width: 380px;
+    text-align: center;
+}
+
+.selected-card {
+    background-color: var(--bg-color-icon);
+}
+
+/* Tablet Styles */
+@media only screen and ((max-width: 1000px) or (max-height: 800px)) {
+    /* Bus Stop Cards */
+    .main-text {
+        font-size: 48px;
+    }
+}
+
+/* Mobile Styles */
+@media only screen and ((max-width: 600px) or (max-height: 700px)) {
+    /* Bus Stop Cards */
+    .main-text {
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>J5 Bus Arrival Config - Nodes</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="static/css/nodes.css">
+        <script src="static/js/main.js"></script>
+        <script src="static/js/nodes.js" defer></script>
+    </head>
+    <body>
+        <div class="d-flex flex-column w-100 h-100">
+            <div class="d-flex flex-column align-items-center content">
+                <div class="font-colour-primary font-j5">J5</div>
+                <div class="flash font-colour-primary font-instruction">Add the bus stops you want to track.</div>
+                <div class="step-container">
+                    <div class="step-card">
+                        <div class="d-flex align-items-center gap-10">
+                            <input id="bus-stop-no" class="textbox tb-bus-stop-no" type="text" placeholder="Bus stop no.">
+                            <button onclick="addBusStopDemo()" class="btn plus-btn">+</button>
+                        </div>
+                        <div id="empty-placeholder" class="empty-placeholder-card">
+                            <img class="empty-placeholder" src="static/images/empty-placeholder.svg" alt="Add a new bus stop!">
+                        </div>
+                        <div id="bus-stop-list"></div>
+                    </div>
+                    <div class="nav-panel">
+                        <a class="btn nav-btn" href="index.html">Back</a>
+                        <a class="btn nav-btn" href="led-mode.html">Next</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

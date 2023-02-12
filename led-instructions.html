@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>J5 Bus Arrival Config - LED Instructions</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="static/css/led-instructions.css">
+        <script src="static/js/main.js"></script>
+        <script src="static/js/led-instructions.js" defer></script>
+    </head>
+    <body>
+        <div class="d-flex flex-column w-100 h-100">
+            <div class="d-flex flex-column align-items-center content">
+                <div class="font-colour-primary font-j5">J5</div>
+                <div class="flash font-colour-primary font-instruction">What should each light mean?</div>
+                <div class="step-container">
+                    <div class="step-card">
+                        <div id="led-list"></div>
+                    </div>
+                    <div class="nav-panel">
+                        <a class="btn nav-btn" href="led-mode.html">Back</a>
+                        <a class="btn nav-btn" href="#" onclick="confirmConfiguration()">Confirm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

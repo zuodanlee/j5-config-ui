@@ -1,0 +1,58 @@
+.led-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color-tertiary);
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.ddl-bus-details {
+    width: 100%;
+}
+
+.nb-range {
+    width: 100%;
+}
+
+.led-label {
+    height: 12px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#led-label-green {
+    background-color: var(--led-label-green);
+}
+
+#led-label-yellow {
+    background-color: var(--led-label-yellow);
+}
+
+#led-label-blue {
+    background-color: var(--led-label-blue);
+}
+
+#led-list {
+    display: flex;
+    flex-direction: column;
+    height: 503px;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+/* Tablet Styles */
+@media only screen and ((max-width: 1000px) or (max-height: 800px)) {
+    #led-list {
+        height: 553px;
+    }
+}
+
+/* Mobile Styles */
+@media only screen and ((max-width: 600px) or (max-height: 700px)) {
+    #led-list {
+        height: 633px;
+    }
+}

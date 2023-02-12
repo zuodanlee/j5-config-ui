@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>J5 Bus Arrival Config - LED Mode</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="static/css/led-mode.css">
+        <script src="static/js/main.js"></script>
+        <script src="static/js/led-mode.js" defer></script>
+    </head>
+    <body>
+        <div class="d-flex flex-column w-100 h-100">
+            <div class="d-flex flex-column align-items-center content">
+                <div class="font-colour-primary font-j5">J5</div>
+                <div class="flash font-colour-primary font-instruction">Select your preferred LED mode.</div>
+                <div class="step-container">
+                    <div class="step-card">
+                        <div onclick="selectLedMode(this.id)" id="informational-card" class="button-card selected-card">
+                            <div class="main-text">Informational</div>
+                            <div class="sub-text">Each light represents a configurable condition.</div>
+                        </div>
+                        <div onclick="selectLedMode(this.id)" id="instructional-card" class="button-card">
+                            <div class="main-text">Instructional</div>
+                            <div class="sub-text">The light indicates which bus stop to head to.</div>
+                        </div>
+                    </div>
+                    <div class="nav-panel">
+                        <a class="btn nav-btn" href="nodes.html">Back</a>
+                        <a class="btn nav-btn" href="led-instructions.html">Next</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
