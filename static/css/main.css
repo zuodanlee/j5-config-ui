@@ -16,6 +16,7 @@ body {
     background-color: var(--bg-color-primary);
     font-family: Rubik, Arial, Helvetica, sans-serif;
     margin: 0;
+    height: 100vh;
 }
 
 .font-colour-primary {

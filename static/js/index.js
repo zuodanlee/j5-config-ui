@@ -1,3 +1,3 @@
 function redirectNodes() {
-    window.location.href = "nodes.html";
+    window.location.href = "nodes";
 }
