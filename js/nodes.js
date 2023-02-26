@@ -50,7 +50,7 @@ function updateBusStopListView() {
     busStopList.forEach(busStop => {
         var tempInnerHtml = `<div class="bus-stop-card">
             <div class="bus-stop-icon">
-                <img class="bus-icon" src="static/images/bus-icon.svg"/>
+                <img class="bus-icon" src="images/bus-icon.svg"/>
             </div>
             <div class="bus-stop-details">
                 <div class="bus-stop-description">${busStop.Description}</div>
