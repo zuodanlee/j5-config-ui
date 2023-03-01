@@ -12,7 +12,7 @@ const ledList = [
         color: "#0057FF"
     }
 ];
-populateLedCards()
+// populateLedCards();
 
 function confirmConfiguration() {
     //

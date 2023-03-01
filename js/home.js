@@ -1,0 +1,3 @@
+function redirectNodes() {
+    nodes();
+}

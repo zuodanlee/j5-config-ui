@@ -1,5 +1,5 @@
 const busStopList = [];
-updateBusStopListView();
+// updateBusStopListView();
 
 function getBusStop(reqBusStopNo) {
     // 1. Call J5 backend API that returns a JSON string of the requested bus stop
